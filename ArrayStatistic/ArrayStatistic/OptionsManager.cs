@@ -12,6 +12,11 @@ namespace ArrayStatistic
             return arr.Count(x => x < 100);
         }
 
+        public static int CountOdds(int[] arr)
+        {
+            return arr.Count(x => x % 2 == 1);
+        }
+
         public static int MaxNum(int[] arr)
         {
             return arr.Max();
