@@ -6,6 +6,7 @@ namespace ArrayStatistic
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("8th March");
             //action array
             Console.WriteLine("Actions with array");
             int n = int.Parse(Console.ReadLine());
