@@ -31,6 +31,11 @@ namespace ArrayStatistic
             Array.Sort(arr);
             Console.WriteLine(string.Join(", ", arr));
         }
+
+        public static void PrintOdds(int [] arr)
+        {
+            Console.WriteLine(string.Join(", ", arr.Where(x => x % 2 == 1)));
+        }
         public static void PrintArr(int[] arr)
         {
             Console.WriteLine(string.Join(", ", arr));

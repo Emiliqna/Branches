@@ -19,6 +19,7 @@ namespace ArrayStatistic
             OptionsManager.PrintArr(arr);
             OptionsManager.SortArr(arr);
             Console.WriteLine("coundOdds=" + OptionsManager.CountOdds(arr));
+            OptionsManager.PrintOdds(arr);
         }
     }
 }
